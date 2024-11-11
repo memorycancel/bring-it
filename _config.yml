@@ -1,8 +1,56 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 狂人日记
+description: 流水帐
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://tommytech.online/bring-it
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  主页: https://tommytech.online
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "回到最上"
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+  # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
+  focus_shortcut_key: 'k'
+
+nav_enabled: true
+
+footer_content: "Copyright &copy; Tommy(memorycancel). "
+favicon_ico: "/assets/images/favicon.ico"
+logo: "/assets/images/logo.svg"
