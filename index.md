@@ -8,3 +8,4 @@ layout: home
 + [使用 Omakese 在 Ubuntu 上搭建Ruby on Rails开发环境](2024-11-13-rails-dev-ubuntu)
 + [在 Ubuntu 上搭建 Metasploit-Framework 开发环境](2024-11-16-msf-development)
 + [使用 metasploit-framework 渗透测试](2024-11-17-msf-beginning)
++ [关于 CPU 指令集和信创的思考](2024-11-18-CPU-ISA)
