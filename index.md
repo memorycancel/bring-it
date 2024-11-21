@@ -11,3 +11,4 @@ layout: home
 + [关于 CPU 指令集和信创的思考](2024-11-18-CPU-ISA)
 + [使用 mise 管理 ruby 版本的一点细节](2024-11-20-mise-ruby-version)
 + [浅谈 Rails 8.0.0 特性](2024-11-20-whats-new-of-rails8)
++ [Vagrant cheatsheet](2024-11-21-regain-vagrant)
