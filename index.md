@@ -12,3 +12,4 @@ layout: home
 + [使用 mise 管理 ruby 版本的一点细节](2024-11-20-mise-ruby-version)
 + [浅谈 Rails 8.0.0 特性](2024-11-20-whats-new-of-rails8)
 + [Vagrant cheatsheet](2024-11-21-regain-vagrant)
++ [为什么 Linux 无法取代 Windows 和 MacOS](2024-11-22-why-linux-cant-kill-windows)
