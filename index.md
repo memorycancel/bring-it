@@ -3,6 +3,8 @@ title: 目录
 layout: home
 ---
 
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Tip me on Ko-fi', '#13c9d6', 'E1E612C7I5');kofiwidget2.draw();</script>
+
 + [使用 FontForge 剪裁字体文件](2024-11-11-FontForge)
 + [使用 systemd 设置开机运行脚本](2024-11-12-Linux-startup-script)
 + [使用 Omakese 在 Ubuntu 上搭建Ruby on Rails开发环境](2024-11-13-rails-dev-ubuntu)
@@ -14,3 +16,4 @@ layout: home
 + [Vagrant cheatsheet](2024-11-21-regain-vagrant)
 + [为什么 Linux 无法取代 Windows 和 MacOS](2024-11-22-why-linux-cant-kill-windows)
 + [使用 docker 在本地服务器搭建 docker registry](2024-11-24-create-docker-registry-on-localhost)
+
