@@ -3,7 +3,13 @@ title: 目录
 layout: home
 ---
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Tip me on Ko-fi', '#13c9d6', 'E1E612C7I5');kofiwidget2.draw();</script>
+```
+“总之，我们要拿来。我们要或使用，或存放，或毁灭。”
+```
+
+<div style="float: right;">
+	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me', '#13c9d6', 'E1E612C7I5');kofiwidget2.draw();</script>
+</div>
 
 + [使用 FontForge 剪裁字体文件](2024-11-11-FontForge)
 + [使用 systemd 设置开机运行脚本](2024-11-12-Linux-startup-script)
@@ -18,3 +24,4 @@ layout: home
 + [使用 docker 在本地服务器搭建 docker registry](2024-11-24-create-docker-registry-on-localhost)
 + [使用 Turbo iOS 构建 iOS APP](2024-11-25-use-turbo-ios-framework)
 + [使用 docker 部署 dm8 达梦数据库](2024-11-27-dm8-docker)
++ [如何为特定编程语言开发数据库驱动程序](2024-11-28-how-dev-db-driver-special-lang)
