@@ -8,7 +8,9 @@ layout: home
 ```
 
 <div style="float: right;">
-	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me', '#13c9d6', 'E1E612C7I5');kofiwidget2.draw();</script>
+    <a href='https://ko-fi.com/E1E612C7I5' target='_blank'>
+        <img height='36' style='border:0px;height:36px;' src='assets/images/kofi4.webp' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+    </a>
 </div>
 
 + [使用 FontForge 剪裁字体文件](2024-11-11-FontForge)
