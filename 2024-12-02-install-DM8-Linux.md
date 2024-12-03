@@ -26,7 +26,8 @@ Vagrantfile:
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/centos-7"
   config.vm.box_version = "202404.23.0"
-  config.vm.network "forwarded_port", guest: 5236, host: 5237
+  config.vm.network "forwarded_port", guest: 5237, host: 5237
+  config.vm.network "public_network" # 桥接 使用 1 bridged network interfaces
   config.vm.synced_folder "/home/centos7-vbox", "/centos7-vbox"
 end
 
@@ -80,10 +81,10 @@ dmdba  hard      data       unlimited
 目录规划：
 ```shell
 ##实例保存目录
-mkdir -p /dmdata/data 
 ##归档保存目录
-mkdir -p /dmdata/arch
 ##备份保存目录
+mkdir -p /dmdata/data 
+mkdir -p /dmdata/arch
 mkdir -p /dmdata/dmbak
 chown -R dmdba:dinstall /dmdata/data
 chown -R dmdba:dinstall /dmdata/arch
@@ -96,7 +97,6 @@ chmod -R 755 /dmdata/dmbak
 ### 3.2 安装
 
 ```shell
-vagrant ssh
 cd /centos7-vbox
 su - root
 mount -o loop /centos7-vbox/dm8_20240920_x86_rh7_64.iso /mnt
