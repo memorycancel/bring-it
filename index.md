@@ -30,3 +30,4 @@ layout: home
 + [在 Linux(CentOS-7) 安装 DM8 数据库](2024-12-02-install-DM8-Linux)
 + [在 Linux(CentOS-7) 使用 dmPython（达梦 Python驱动）](2024-12-03-linux-dmPython)
 + [在 Linux(CentOS-7) 搭建 Ruby 2.5.8 达梦 dm8 开发环境](2024-12-04-ruby-dm8-centos7)
++ [浅谈 Unix 设计准则](2024-12-16-Unix-design-principle)
