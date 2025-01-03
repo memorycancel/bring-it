@@ -33,3 +33,4 @@ layout: home
 + [浅谈 Unix 设计准则](2024-12-16-Unix-design-principle)
 + [在麒麟V10(Kylin-Server-V10-SP3-2403-Release-20240426-x86_64)搭建 Rails 8](2024-12-23-Kylin-V10-rails8)
 + [使用 Github Primer Design System 设计和 Github 风格一致的布局](2025-01-01-github-primer-design-system-rails)
++ [使用 Rails 8 提供的默认任务队列 Solid Queue](2025-01-03-using-solid-queue-of-rails-8)
