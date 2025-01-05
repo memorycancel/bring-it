@@ -27,8 +27,11 @@ Solid Queue 是 Active Job 的一个基于数据库的队列后端，设计时�
 
 Solid Queue 将 `:solid_queue` 适配器设置为生产环境中 Active Job 的默认适配器，并连接到 queue 数据库进行写入。在开发环境中使用生产环境变量：
 
-```
+```shell
 export RAILS_ENV=production
+# README 说这是默认的，但是事实上必须执行他才会有`bin/jobs`
+# 在这里进行了讨论：https://github.com/rails/solid_queue/issues/399#issuecomment-2571538103
+bin/rails solid_queue:install
 rails db:prepare
 bin/jobs start
 ```
@@ -37,8 +40,8 @@ bin/jobs start
 
 此时在db文件夹会看到分别的`schema`文件:
 ```shell
-￥ \ls db/
-cable_schema.rb  cache_schema.rb  queue_schema.rb  seeds.rb
+$ \ls db/
+queue_schema.rb  seeds.rb
 ```
 且`Solid Queue`对应的表在数据库中也建立起来：
 
@@ -94,8 +97,17 @@ FooJob.set(wait: 1.week).perform_later(1)
 
 同时对任务队列的监控也提供一个GUI：[https://github.com/rails/mission_control-jobs](https://github.com/rails/mission_control-jobs)
 
+`routes.rb` :
+
+```ruby
+Rails.application.routes.draw do
+  # ...
+  mount MissionControl::Jobs::Engine, at: "/jobs"
+```
+
 ```shell
 gem "propshaft"
+gem "mission_control-jobs"
 $ bundle install
 RAILS_ENV=production rails assets:precompile
 RAILS_ENV=production bin/rails mission_control:jobs:authentication:configure
@@ -111,3 +123,7 @@ RAILS_ENV=production rails s
 目前Solid Queue还没完备支持。不过已经有Issue在追踪此问题，作者也将其列为高优先级。
 
 [https://github.com/rails/solid_queue/issues/353](https://github.com/rails/solid_queue/issues/353)
+
+
+本文的全部代码在：
+[https://github.com/memorycancel/rails-solid-queue](https://github.com/memorycancel/rails-solid-queue)
