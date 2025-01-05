@@ -29,9 +29,6 @@ Solid Queue 将 `:solid_queue` 适配器设置为生产环境中 Active Job 的�
 
 ```shell
 export RAILS_ENV=production
-# README 说这是默认的，但是事实上必须执行他才会有`bin/jobs`
-# 在这里进行了讨论：https://github.com/rails/solid_queue/issues/399#issuecomment-2571538103
-bin/rails solid_queue:install
 rails db:prepare
 bin/jobs start
 ```
@@ -41,7 +38,7 @@ bin/jobs start
 此时在db文件夹会看到分别的`schema`文件:
 ```shell
 $ \ls db/
-queue_schema.rb  seeds.rb
+cable_schema.rb  cache_schema.rb  queue_schema.rb  seeds.rb
 ```
 且`Solid Queue`对应的表在数据库中也建立起来：
 
@@ -106,7 +103,6 @@ Rails.application.routes.draw do
 ```
 
 ```shell
-gem "propshaft"
 gem "mission_control-jobs"
 $ bundle install
 RAILS_ENV=production rails assets:precompile
@@ -126,4 +122,4 @@ RAILS_ENV=production rails s
 
 
 本文的全部代码在：
-[https://github.com/memorycancel/rails-solid-queue](https://github.com/memorycancel/rails-solid-queue)
+[https://github.com/memorycancel/rails-solid/tree/solid-queue](https://github.com/memorycancel/rails-solid/tree/solid-queue)
