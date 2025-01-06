@@ -35,4 +35,4 @@ layout: home
 + [使用 Github Primer Design System 设计和 Github 风格一致的布局](2025-01-01-github-primer-design-system-rails)
 + [使用 Rails 8 提供的默认任务队列 Solid Queue](2025-01-03-using-solid-queue-of-rails-8)
 + [使用 Rails 8 提供的默认实时更新组件 Solid Cable](2025-01-05-using-solid-cable-of-rails-8)
-+ [使用 Rails 8 提供的默认缓存 Solid Cache](2025-01-05-using-solid-cache-of-rails-8)
++ [使用 Rails 8 提供的默认缓存 Solid Cache](2025-01-06-using-solid-cache-of-rails-8)
