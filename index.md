@@ -39,3 +39,4 @@ layout: home
 + [使用 Rails 8 提供的默认国际化 I18n](2025-01-09-using-i18n-of-rails-8)
 + [确保 Rails 8 应用程序的安全](2025-01-10-securing-rails-8-application)
 + [使用 Rails 8 提供的默认富文本模块](2025-01-13-using-action-text-of-rails-8)
++ [微调 Rails 8 部署服务器性能](2025-01-14-tuning-performance-for-rails-8-deployment)
