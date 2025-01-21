@@ -42,3 +42,4 @@ layout: home
 + [微调 Rails 8 部署服务器性能](2025-01-14-tuning-performance-for-rails-8-deployment)
 + [使用 Rails 8 错误管理](2025-01-15-using-rails-error-management)
 + [使用 Rails 8 默认测试库 minitest（上：单元测试）](2025-01-20-testing-rails-application-up)
++ [使用 Rails 8 默认测试库 minitest（下：集成测试）](2025-01-21-testing-rails-application-down)
