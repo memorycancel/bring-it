@@ -44,4 +44,4 @@ layout: home
 + [使用 Rails 8 默认测试库 minitest（上：单元测试）](2025-01-20-testing-rails-application-up)
 + [使用 Rails 8 默认测试库 minitest（下：集成测试）](2025-01-21-testing-rails-application-down)
 + [使用 Rails 8 邮件发送器 Action Mailer](2025-01-23-using-rails-action-mailer)
-
++ [CI / CD 持续集成和持续交付](2025-02-06-ci-cd)
