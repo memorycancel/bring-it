@@ -47,3 +47,4 @@ layout: home
 + [CI / CD 持续集成和持续交付](2025-02-06-ci-cd)
 + [使用 Jenkins 和 Docker 实践 CI / CD 简介](2025-02-07-jenkins-docker-ci-cd)
 + [关于容器](2025-02-08-about-container)
++ [容器集群与管理](2025-02-09-containers-cluster-and-management)
