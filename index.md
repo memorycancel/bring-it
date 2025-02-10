@@ -48,3 +48,4 @@ layout: home
 + [使用 Jenkins 和 Docker 实践 CI / CD 简介](2025-02-07-jenkins-docker-ci-cd)
 + [关于容器](2025-02-08-about-container)
 + [容器集群与管理](2025-02-09-containers-cluster-and-management)
++ [入门 Ansible 镜像执行环境 EE](2025-02-10-ansible-get-started)
