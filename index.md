@@ -49,3 +49,4 @@ layout: home
 + [关于容器](2025-02-08-about-container)
 + [容器集群与管理](2025-02-09-containers-cluster-and-management)
 + [入门 Ansible 镜像执行环境 EE](2025-02-10-ansible-get-started)
++ [比较 chef puppet ansible saltstack](2025-02-11-compare-chef-puppet-ansible-saltstack)
