@@ -50,3 +50,4 @@ layout: home
 + [容器集群与管理](2025-02-09-containers-cluster-and-management)
 + [入门 Ansible 镜像执行环境 EE](2025-02-10-ansible-get-started)
 + [比较 chef puppet ansible saltstack](2025-02-11-compare-chef-puppet-ansible-saltstack)
++ [使用 proxy 解决 docker 镜像的网络下载问题](2025-02-18-container-proxy)
