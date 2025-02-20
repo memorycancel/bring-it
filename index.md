@@ -52,3 +52,4 @@ layout: home
 + [比较 chef puppet ansible saltstack](2025-02-11-compare-chef-puppet-ansible-saltstack)
 + [使用 proxy 解决 docker 镜像的网络下载问题](2025-02-18-container-proxy)
 + [你好 minikube](2025-02-19-hello-minikube)
++ [学习 Kubernetes 基础知识](2025-02-20-kubernetes-basics)
