@@ -1,9 +1,9 @@
 ---
-title: 你好 minikube
+title: 使用 minikube 创建 kubernetes
 layout: home
 ---
 
-# 你好 minikube
+# 使用 minikube 创建 kubernetes
 
 2025-02-19 20:00
 
