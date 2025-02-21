@@ -51,5 +51,6 @@ layout: home
 + [入门 Ansible 镜像执行环境 EE](2025-02-10-ansible-get-started)
 + [比较 chef puppet ansible saltstack](2025-02-11-compare-chef-puppet-ansible-saltstack)
 + [使用 proxy 解决 docker 镜像的网络下载问题](2025-02-18-container-proxy)
-+ [你好 minikube](2025-02-19-hello-minikube)
++ [使用 minikube 创建 kubernetes](2025-02-19-hello-minikube)
 + [学习 Kubernetes 基础知识](2025-02-20-kubernetes-basics)
++ [使用 ConfigMap 更新 Kubernetes Pod 的配置](2025-02-21-using-configmap-to-config-pod)
