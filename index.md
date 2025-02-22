@@ -54,3 +54,4 @@ layout: home
 + [使用 minikube 创建 kubernetes](2025-02-19-hello-minikube)
 + [学习 Kubernetes 基础知识](2025-02-20-kubernetes-basics)
 + [使用 ConfigMap 更新 Kubernetes Pod 的配置](2025-02-21-using-configmap-to-config-pod)
++ [使用 Kubernetes ConfigMap 的真实案例](2025-02-22-configmap-real-world-example)
