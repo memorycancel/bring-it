@@ -56,3 +56,4 @@ layout: home
 + [使用 ConfigMap 更新 Kubernetes Pod 的配置](2025-02-21-using-configmap-to-config-pod)
 + [使用 Kubernetes ConfigMap 的真实案例](2025-02-22-configmap-real-world-example)
 + [关于 kubectl 和 helm](2025-02-22-about-kubectl-and-helm)
++ [使用 minikube 部署 rails 8 应用](2025-02-23-deploy-rails-8-to-minikube)
