@@ -107,7 +107,7 @@ minikube start --vm-driver=docker \
   --docker-env HTTPS_PROXY=http://192.168.0.100:10809 \
   --docker-env NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
 
-minikube shh
+minikube ssh
 # 或者 docker ps 然后 docker exec -ti [k8s-minikube-container-id] sh
 
 https_proxy=192.168.0.100:10809 curl -I https://us-west2-docker.pkg.dev
@@ -125,3 +125,35 @@ Environment="HTTP_PROXY=http://192.168.0.100:10809"
 Environment="HTTPS_PROXY=http://192.168.0.100:10809"
 ```
 这样容器内的docker的服务也挂上了与本机一样的网络代理。
+
+### 3.4 使用本地 insecure-registry
+
+还有一种方法是在本地下载，集群通过`--insecure-registry "192.168.0.100:5000`访问本地的registry。
+
+参考：[https://minikube.sigs.k8s.io/docs/handbook/registry/](https://minikube.sigs.k8s.io/docs/handbook/registry/)
+
+
+在本地准备好镜像：
+
+```shell
+docker tag memorycancel/rails-8-demo 192.168.0.100:5000/memorycancel/rails-8-demo
+docker push 192.168.0.100:5000/memorycancel/rails-8-demo
+```
+
+然后重新启动集群：
+
+```shell
+# 在使用前要确保先删除原容器。
+minikube delete
+
+minikube start --vm-driver=docker \
+  --docker-env HTTP_PROXY=http://192.168.0.100:10809 \
+  --docker-env HTTPS_PROXY=http://192.168.0.100:10809 \
+  --docker-env NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24 \
+  --insecure-registry "192.168.0.100:5000"
+
+# 这个时候集群内部已经可以 pull 了
+
+minikube ssh
+docker pull 192.168.0.100:5000/memorycancel/rails-8-demo
+```
