@@ -57,3 +57,4 @@ layout: home
 + [使用 Kubernetes ConfigMap 的真实案例](2025-02-22-configmap-real-world-example)
 + [关于 kubectl 和 helm](2025-02-22-about-kubectl-and-helm)
 + [使用 minikube 部署 rails 8 应用](2025-02-23-deploy-rails-8-to-minikube)
++ [使用 Kubernetes 中的持久卷 Persistent Volumes](2025-02-24-using-kubernetes-persistent-volumes)
