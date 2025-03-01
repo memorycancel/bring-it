@@ -58,3 +58,4 @@ layout: home
 + [关于 kubectl 和 helm](2025-02-22-about-kubectl-and-helm)
 + [使用 minikube 部署 rails 8 应用](2025-02-23-deploy-rails-8-to-minikube)
 + [使用 Kubernetes 中的持久卷 Persistent Volumes](2025-02-24-using-kubernetes-persistent-volumes)
++ [使用 GNOME 开发工具 - Builder 开发 Ubuntu Desktop 应用](2025-03-01-using-gnome-builder-develop-ubuntu-desktop-app)
