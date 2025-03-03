@@ -59,3 +59,4 @@ layout: home
 + [使用 minikube 部署 rails 8 应用](2025-02-23-deploy-rails-8-to-minikube)
 + [使用 Kubernetes 中的持久卷 Persistent Volumes](2025-02-24-using-kubernetes-persistent-volumes)
 + [使用 GNOME 开发工具 - Builder 开发 Ubuntu Desktop 应用](2025-03-01-using-gnome-builder-develop-ubuntu-desktop-app)
++ [把 shell 脚本变成 Ubuntu 桌面应用（通过双击执行）](2025-03-03-make-shell-to-ubuntu-desktop-app)
