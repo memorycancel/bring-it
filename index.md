@@ -61,3 +61,4 @@ layout: home
 + [使用 GNOME 开发工具 - Builder 开发 Ubuntu Desktop 应用](2025-03-01-using-gnome-builder-develop-ubuntu-desktop-app)
 + [把 shell 脚本变成 Ubuntu 桌面应用（通过双击执行）](2025-03-03-make-shell-to-ubuntu-desktop-app)
 + [在本地部署 DeepSeek 大模型](2025-03-04-deploy-deepseek-locally)
++ [优化本地部署 deepseek-coder-6.7b-instruct infer性能](2025-03-04-optimize-deepseek-coder-6.7b-instruct-infer)
