@@ -62,3 +62,4 @@ layout: home
 + [把 shell 脚本变成 Ubuntu 桌面应用（通过双击执行）](2025-03-03-make-shell-to-ubuntu-desktop-app)
 + [在本地部署 DeepSeek 大模型](2025-03-04-deploy-deepseek-locally)
 + [优化本地部署 deepseek-coder-6.7b-instruct infer性能](2025-03-04-optimize-deepseek-coder-6.7b-instruct-infer)
++ [Using ggerganov / whisper.cpp](2025-03-07-using-whisper-cpp)
