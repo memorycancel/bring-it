@@ -20,9 +20,23 @@ manual.desktop
 [Desktop Entry]
 Type=Application
 Name=manual
-Exec=gsettings set org.gnome.system.proxy mode manual
+Exec=/home/memorycancel/Desktop/switch.sh
 Terminal=False
 ```
+
+`switch.sh`:
+
+```shell
+#!/bin/bash
+
+gsettings set org.gnome.system.proxy mode manual
+gsettings set org.gnome.system.proxy.http port 10809
+gsettings set org.gnome.system.proxy.https port 10809
+gsettings set org.gnome.system.proxy.socks port 10808
+```
+
+{: .note :}
+添加switch.sh脚本为了完成一键对代理的切换：`xray`/`clash-verge`
 
 none.desktop
 ```ini
@@ -50,5 +64,3 @@ Terminal=true
 ## 2 开通执行权限（Allow Launching）
 
 ![1](assets/images/2025-03-03/1.gif)
-
-
