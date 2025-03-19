@@ -64,3 +64,4 @@ layout: home
 + [优化本地部署 deepseek-coder-6.7b-instruct infer性能](2025-03-04-optimize-deepseek-coder-6.7b-instruct-infer)
 + [Using ggerganov / whisper.cpp](2025-03-07-using-whisper-cpp)
 + [Kubernetes 集群中的 worker 节点 containerd 代理配置](2025-03-10-kubernetes-the-hard-way)
++ [Helm 快速入门](2025-03-19-helm-quick-start)
