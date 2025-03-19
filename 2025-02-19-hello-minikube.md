@@ -43,6 +43,9 @@ minikube start --vm-driver=docker \
 
 ## 3 打开仪表盘 Dashboard
 
+{: .important :}
+在打开 dashborad 前需要给 minikube 管理节点挂上代理，这样才能下载仪表盘容器，参考：[2025-02-18-container-proxy#32-给minikube容器挂代理](2025-02-18-container-proxy#32-给minikube容器挂代理)
+
 ```shell
 # 启动一个新的终端，并保持此命令运行。Ctrl+C 退出该进程。
 minikube dashboard

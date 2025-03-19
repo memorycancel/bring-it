@@ -115,14 +115,20 @@ https_proxy=192.168.0.100:10809 curl -I https://us-west2-docker.pkg.dev
 
 ### 3.3 给 minikube容器里面的docker 里挂代理
 
-1.创建目录：mkdir -p /etc/systemd/system/docker.service.d
-2.创建配置文件： /etc/systemd/system/docker.service.d/http-proxy.conf
-3.配置文件 http-proxy.conf 填入以下内容，保存：
+
+1. 创建目录：`sudo mkdir -p /etc/systemd/system/docker.service.d`
+2. 创建配置文件： `sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf`
+3. 配置文件 http-proxy.conf 填入以下内容，保存：
 
 ```
 [Service]
 Environment="HTTP_PROXY=http://192.168.0.100:10809"
 Environment="HTTPS_PROXY=http://192.168.0.100:10809"
+```
+重新加载配置文件，重启 dockerd：
+```shell
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
 这样容器内的docker的服务也挂上了与本机一样的网络代理。
 
