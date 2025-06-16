@@ -67,3 +67,4 @@ layout: home
 + [Helm 快速入门](2025-03-19-helm-quick-start)
 + [测试 ruby 封装的 libgit2 库 rugged](2025-03-25-test-rugge-gem)
 + [systemd-timer](2025-04-24.systemd-timer)
++ [使用 Rails 8 的 propshaft 集成 bootstrap 5.3.6](2025-06-16-using-rails-8-propshaft-integrate-bootstrap-5)
