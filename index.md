@@ -69,3 +69,4 @@ layout: home
 + [systemd-timer](2025-04-24.systemd-timer)
 + [使用 Rails 8 的 propshaft 集成 bootstrap 5.3.6](2025-06-16-using-rails-8-propshaft-integrate-bootstrap-5)
 + [使用 Rails 8 默认 JavaScript 框架 Stimulus 基础](2025-06-17-using-hotwire-stimulus-of-rails-8)
++ [Rails 8 默认 JavaScript 框架 Stimulus 高级用法](2025-06-18-hotwire-stimulus-advanced)
