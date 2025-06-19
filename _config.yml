@@ -1,5 +1,5 @@
-title: 狂人日记
-description: 流水帐
+title: 朝花夕拾
+description: 2025
 theme: just-the-docs
 
 url: https://tommytech.online/bring-it
@@ -68,6 +68,6 @@ callouts:
     title: Warning
     color: red
 
-footer_content: "Copyright &copy; Tommy(memorycancel). "
+footer_content: "Copyright &copy; Tommy(memorycancel). 朝花夕拾 2025"
 favicon_ico: "/assets/images/favicon.ico"
 logo: "/assets/images/logo.svg"
