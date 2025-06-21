@@ -72,3 +72,4 @@ layout: home
 + [使用 Rails 8 默认 JavaScript 框架 Stimulus 基础](posts/2025-06-17-using-hotwire-stimulus-of-rails-8)
 + [Rails 8 默认 JavaScript 框架 Stimulus 高级用法](posts/2025-06-18-hotwire-stimulus-advanced)
 + [Rails 8 默认 JavaScript 框架 Stimulus 总结](posts/2025-06-19-hotwire-stimulus-conclution)
++ [Rails 8 集成 google oauth 2.0](posts/2025-06-20-integrate-google-oauth-2-with-rails-8)
