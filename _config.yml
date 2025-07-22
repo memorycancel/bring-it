@@ -5,7 +5,7 @@ theme: just-the-docs
 url: https://memorycancel.github.io/bring-it
 
 aux_links:
-  关于作者: https://tommytech.online
+  关于作者: https://memorycancel.github.io
 
 compress_html:
   clippings: all
