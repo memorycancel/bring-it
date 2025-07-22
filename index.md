@@ -8,6 +8,10 @@ layout: home
 “早上的花虽然已凋谢,但在黄昏时仍能拾起来,给人们以意义。-- 2025（摘）”
 ```
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2hJvlomLnj8v1ns9hvJixm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+2025-07 夏 升
+
 <div style="float: right;">
     <a href='https://ko-fi.com/E1E612C7I5' target='_blank'>
         <img height='36' style='border:0px;height:36px;' src='assets/images/kofi4.webp' border='0' alt='Buy Me a Coffee at ko-fi.com' />
